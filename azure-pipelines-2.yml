@@ -31,7 +31,7 @@ stages:
             **/*.java
           TargetFolder: 'Build.ArtifactStagingDirectory'
       - task: PublishBuildArtifacts@1
-         inputs:
+        inputs:
            PathtoPublish: '$(Build.ArtifactStagingDirectory)'
            ArtifactName: 'artifactfile1'
-           publishLocation: 'Container'
+           publishLocation: 'Container'  
