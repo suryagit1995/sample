@@ -1,4 +1,6 @@
 #Experience  with Jobs
+#Jobs are running parallel
+#Job 1 and 1 are running different agents (Agents are virtual servers)
 
 trigger:
 - master
